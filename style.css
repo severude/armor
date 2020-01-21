@@ -1,0 +1,87 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    margin: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5em;
+    margin-bottom: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+h1 {
+    text-align: center;
+}
+strong {
+    font-weight: bold;
+}
+p {
+    margin: .75em 5%;
+}
+a {
+    text-decoration: none;
+    color: blue;
+}
+img {
+    margin: 1.5em 12%;
+    border-radius: 1%;
+    width: 75%;
+}
+sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+    color: gray;
+}
+.armor {
+    width: 45%;
+    float: left;
+}
+
+/* Media query for paragraph margins and fond size */
+/* 768px Tablet */
+@media (min-width: 48em) {
+    p {
+        font-size: 1.125em;
+        margin: .75em 5%;
+    }
+    img {
+        margin: 1.5em 12%;
+        width: 75%;
+    }
+}
+/* 1024px Laptop */
+@media (min-width: 64em) {
+    p {
+        margin: .75em 15%;
+    }
+    img {
+        margin: 1.5em 33%;
+        width: 55%;
+    }
+}
+/* 1216px Desktop */
+@media (min-width: 76em) {
+    p {
+        margin: .75em 21%;
+    }
+    img {
+        margin: 1.5em 46%;
+        width: 37%;
+    }
+}
+/* 1440px Large */
+@media (min-width: 90em) {
+    p {
+        margin: .75em 26%;
+    }
+    img {
+        margin: 1.5em 58%;
+        width: 30%;
+    }
+}
